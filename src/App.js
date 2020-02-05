@@ -7,7 +7,7 @@ import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
-import {reducer, initialState} from './reducers/index';
+import {reducer} from './reducers/index';
 
 const App = () => {
   const store = createStore(reducer);
