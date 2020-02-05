@@ -12,14 +12,6 @@ import {reducer, initialState} from './reducers/index';
 const App = () => {
   const store = createStore(reducer);
 
-  const removeFeature = item => {
-    // dispatch an action here to remove an item
-  };
-
-  const buyItem = item => {
-    // dipsatch an action here to add an item
-  };
-
   return (
     <Provider store={store}>
       <div className="boxes">
