@@ -13,8 +13,7 @@ const Total = props => {
 };
 
 const stateToProps = state => ({
-  car: state.car,
-  additionalPrice: state.additionalPrice,
+  car: state,
 });
 
 export default connect(

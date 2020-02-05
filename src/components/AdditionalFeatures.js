@@ -21,7 +21,7 @@ const AdditionalFeatures = props => {
 };
 
 const stateToProps = state => ({
-  additionalFeatures: state.additionalFeatures
+  additionalFeatures: state.optional_features
 });
 
 export default connect(

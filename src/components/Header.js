@@ -14,7 +14,7 @@ const Header = (props) => {
 };
 
 const stateToProps = state => ({
-  car: state.car
+  car: state
 });
 
 export default connect(

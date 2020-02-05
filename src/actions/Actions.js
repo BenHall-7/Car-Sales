@@ -15,3 +15,12 @@ export function removeFeature(feature) {
     payload: feature
   }
 }
+
+export const SELECT_CAR = "SELECT_CAR";
+
+export function selectCar(car) {
+  return {
+    type: SELECT_CAR,
+    payload: car,
+  }
+}
